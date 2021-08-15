@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind CSS CDN Link  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Banking System</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-4xl text-center mt-12">SIMPLE <span class="text-blue-500">BANKING TRANSACTION</span></h1>
+    </header>
+
+    <!-- main starts -->
+    <main>
+        <section class="flex justify-center items-center mt-20">
+            
+            <div class="bg-white-100 flex flex-col justify-center items-center h-80 w-80 rounded shadow-lg">
+                <h1 class="text-2xl mb-10">Please Login</h1>
+                <form action="#" class="">
+                    <p class="mb-2">Writer your email </p>
+                    <input id="user-email" class="border-2 block border-gray-400 pr-2" type="text" placeholder="Enter your email">
+                    <p class="mb-2 mt-2">Write your password</p>
+                    <input id="user-pass" class="border-2 block border-gray-400 pr-2" type="password" placeholder="Enter your password"><br>
+                    <button id="login-submit" class="bg-green-500 mt-2 h-8 w-20 rounded">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="bank.js"></script>
+</body>
+</html>
